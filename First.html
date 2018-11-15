@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>求职登记</title>
+    <style type="text/css" media="all">
+#top{
+  margin:0 auto;
+  width:130px;
+    height:100px;
+}
+#mid{
+  margin:0 auto;
+  width:150px;
+    height:70px;
+      text-align:center;
+}
+#bon{
+  margin:0 auto;
+    width:450px;
+      height:200px;
+        text-align:center;
+}
+    </style>
+  </head>
+  <body>
+    <div id="top">
+      <h4>求职登陆网站</h4>
+      </div>
+    <div id="mid">
+      <p>请选择应聘岗位</p>
+      <form id="mid-form" action="" method="">
+        <select name="company">
+        <option value="总裁/总经理/CEO">总裁/总经理/CEO</option>
+        <option value="企业策划">企业策划</option>
+        <option value="投资管理">投资管理</option>
+        <option value="企管部经理/企业管理顾问">企管部经理/企业管理顾问</option>
+        <option value="企业管理人员">企业管理人员</option>
+        <option value="质管部经理/质管部顾问">质管部经理/质管部顾问</option>
+        <option value="质管人员/质量工程师">质管人员/质量工程师</option>
+        </select>
+      </form>
+    </div>
+    <div id="bon">
+      <p>希望工作地点</p>
+      <form id="bon-form" action="" method="">
+      <select>
+        <option value="北京">北京</option>
+        <option value="上海">上海</option>
+        <option value="广州">广州</option>
+        <option value="江西">江西</option>
+      </select>
+      <input type="radio" name="career" value="全职">全职
+      <input type="radio" name="career" value="兼职">兼职<br><br />
+      月薪&nbsp <input type="text" name="money">元以上
+      <input type="checkbox" name="home">要求提供住房<br /><br /><br />
+      <input type="submit" name="sub" value="提交" />
+      </form>
+    </div>
+  </body>
+</html>
